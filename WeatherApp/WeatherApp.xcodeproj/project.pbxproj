@@ -13,6 +13,7 @@
 		ACF8529A1C0B93250015FDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF852981C0B93250015FDF7 /* Main.storyboard */; };
 		ACF8529C1C0B93250015FDF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF8529B1C0B93250015FDF7 /* Assets.xcassets */; };
 		ACF8529F1C0B93250015FDF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF8529D1C0B93250015FDF7 /* LaunchScreen.storyboard */; };
+		ACF852AD1C0B9B2E0015FDF7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF852AC1C0B9B2E0015FDF7 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		ACF8529B1C0B93250015FDF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF8529E1C0B93250015FDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACF852A01C0B93250015FDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF852AC1C0B9B2E0015FDF7 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		E09E95A409F305B0BA96E069 /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 		ACF852A61C0B93B60015FDF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACF852AC1C0B9B2E0015FDF7 /* Weather.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF852971C0B93250015FDF7 /* ViewController.swift in Sources */,
+				ACF852AD1C0B9B2E0015FDF7 /* Weather.swift in Sources */,
 				ACF852951C0B93250015FDF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
