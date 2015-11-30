@@ -65,6 +65,8 @@ class Weather {
     var sunset : NSDate {
         return _sunset
     }
-    
-    
+    init(cityName : String, countryName : String){
+        self._cityName = cityName
+        self._countryName = countryName
+    }
 }

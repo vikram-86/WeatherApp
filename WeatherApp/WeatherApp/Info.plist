@@ -36,5 +36,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Weather App would like to use your current location</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>Weather App would like to use your current location</string>
 </dict>
 </plist>
